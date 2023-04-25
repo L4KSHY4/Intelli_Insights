@@ -1,0 +1,456 @@
+18:54:00.405 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.Config - ******************  Loading properties file : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\config.properties 
+18:54:00.410 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.Config - ******************  Loading properties file : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\coordinates.properties 
+18:54:00.411 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.Config - ******************  Loading properties file : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\or.properties 
+18:54:00.414 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.Config - ******************  All property configuration files loaded
+18:54:00.538 [com.tii.core.DynamicSuiteRunner.main()] INFO  org.reflections.Reflections - Reflections took 71 ms to scan 71 urls, producing 4 keys and 6 values 
+18:54:00.565 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.ReflectionUtils - Class present in [com.tii.tests.web] is [AdminTest]
+18:54:00.575 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.ReflectionUtils - Class present in [com.tii.tests.web] is [NonAdminTest]
+18:54:00.576 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.ReflectionUtils - Class present in [com.tii.tests.web] is [AdminTestDemo]
+18:54:00.601 [com.tii.core.DynamicSuiteRunner.main()] INFO  org.reflections.Reflections - Reflections took 25 ms to scan 71 urls, producing 2 keys and 2 values 
+18:54:00.602 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.ReflectionUtils - Class present in [com.tii.tests.mobile] is [SampleTest_aMobile]
+18:54:00.631 [com.tii.core.DynamicSuiteRunner.main()] INFO  org.reflections.Reflections - Reflections took 28 ms to scan 71 urls, producing 2 keys and 2 values 
+18:54:00.633 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.ReflectionUtils - Class present in [com.tii.tests.hybridandroid] is [HSampleTest]
+18:54:00.653 [com.tii.core.DynamicSuiteRunner.main()] INFO  org.reflections.Reflections - Reflections took 20 ms to scan 71 urls, producing 0 keys and 0 values 
+18:54:00.675 [com.tii.core.DynamicSuiteRunner.main()] INFO  org.reflections.Reflections - Reflections took 21 ms to scan 71 urls, producing 2 keys and 2 values 
+18:54:00.676 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.ReflectionUtils - Class present in [com.tii.tests.hybridios] is [ISampleTest]
+18:54:00.698 [com.tii.core.DynamicSuiteRunner.main()] INFO  org.reflections.Reflections - Reflections took 22 ms to scan 71 urls, producing 0 keys and 0 values 
+18:54:00.701 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Getting data of sheet: TestScripts from workbook: C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\TestData.xlsx
+18:54:01.479 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Recorded Sheet Data Successfully. : {AdminTest={ClassName=AdminTest, RunMode=Y, Browser=chrome, NodeURL=, DeviceOrientation=}, NonAdminTest={ClassName=NonAdminTest, RunMode=Y, Browser=chrome, NodeURL=, DeviceOrientation=}, ={ClassName=, RunMode=, Browser=, NodeURL=, DeviceOrientation=}}
+18:54:01.480 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Getting data of sheet: TC_MAPPING from workbook: C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\TestData.xlsx
+18:54:01.609 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Recorded Sheet Data Successfully. : {NON_ADMIN_TEST_100={TC_ID=NON_ADMIN_TEST_100, RUNMODE=, DATA_ID=DATA_2, DEVICE_ORIENTATION=, Pre Conditions/Remarks=}, ADMIN_TEST_101={TC_ID=ADMIN_TEST_101, RUNMODE=Y, DATA_ID=DATA_1, DEVICE_ORIENTATION=, Pre Conditions/Remarks=}, ADMIN_TEST_102={TC_ID=ADMIN_TEST_102, RUNMODE=Y, DATA_ID=DATA_1, DEVICE_ORIENTATION=, Pre Conditions/Remarks=}, ={TC_ID=, RUNMODE=, DATA_ID=, DEVICE_ORIENTATION=, Pre Conditions/Remarks=}}
+18:54:01.611 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Getting data of sheet: TESTDATA from workbook: C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\TestData.xlsx
+18:54:01.711 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Recorded Sheet Data Successfully. : {DEFAULT_DATA={Id=DEFAULT_DATA, profile=ADMIN, BotName=}, DATA_1={Id=DATA_1, profile=ADMIN, BotName=52_BOT#12_Field Work Bundled}, DATA_2={Id=DATA_2, profile=Non_ADMIN, BotName=}, ={Id=, profile=, BotName=}}
+18:54:01.712 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Getting data of sheet: Profiles from workbook: C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\TestData.xlsx
+18:54:01.798 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Recorded Sheet Data Successfully. : {ADMIN={Profile=ADMIN, username=amzad.hussain@telus.com, password=telus@123}, Non_ADMIN={Profile=Non_ADMIN, username=lakshya.shandilya@telusinternational.com, password=Baahgqseu5}, ={Profile=, username=, password=}}
+18:54:01.806 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.DynamicSuiteRunner - ####################################################################################################
+18:54:01.806 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.DynamicSuiteRunner - Test Ids present in class : [AdminTest] are : [ADMIN_TEST_102, ADMIN_TEST_101]
+18:54:01.807 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.DynamicSuiteRunner - Test Ids that are enabled in Excel data sheet are : [ADMIN_TEST_101, ADMIN_TEST_102]
+18:54:01.809 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.DynamicSuiteRunner - TestScript Configuration for class [AdminTest] is {ClassName=AdminTest, RunMode=Y, Browser=chrome, NodeURL=, DeviceOrientation=}
+18:54:02.002 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.DynamicSuiteRunner - ####################################################################################################
+18:54:02.002 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.DynamicSuiteRunner - Test Ids present in class : [NonAdminTest] are : [NON_ADMIN_TEST_100]
+18:54:02.002 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.DynamicSuiteRunner - Test Ids that are enabled in Excel data sheet are : []
+18:54:02.022 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.FileUtil - ******************  Successfully generated XML file : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\testSuiteXmls\dynamic_suite.xml
+18:54:02.086 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter -                             ##########################                                 
+18:54:02.088 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - ############################ SUITE EXECUTION STARTED ################################
+18:54:02.088 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter -                             ##########################                                 
+18:54:02.201 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.FileUtil - ******************  Creating directory : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\test-result
+18:54:02.201 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.FileUtil - ******************  Creating directory : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\test-result\testcase-screenshots
+18:54:02.201 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.FileUtil - ******************  Creating directory : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\test-result\execution-reports
+18:54:02.202 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.FileUtil - ******************  Creating directory : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\test-result\execution-reports\2023-04-25
+18:54:02.202 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - ******************  Test Result Directories created.
+18:54:06.106 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.DriverPool - ******************  Getting web driver for browser : chrome
+18:54:06.264 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Navigating to URL : [https://telus-qa-ii.itia.ai/login]
+18:54:06.265 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Waiting for 3 seconds
+18:54:15.429 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - ######################################## TEST CASE STARTED :  [accessBotPerformanceYearly] ###################################################################
+18:54:15.430 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - ******************  Execution Started For Test: accessBotPerformanceYearly
+18:54:15.431 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Refreshing the browser...
+18:54:15.431 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Waiting for 3 seconds
+18:54:20.530 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Waiting for 3 seconds
+18:54:23.543 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting elements for :-- [profile_dropdown_arrow_xpath] : [//div[@class='right-header']/div[@class='dropdown d-inline']/button[@type='button']]
+18:54:23.570 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [web_login_page_username_textbox_xpath] : [//input[@name='username']]
+18:54:23.646 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Entering text for : [web_login_page_username_textbox_xpath] ::   Text is : [amzad.hussain@telus.com]
+18:54:23.741 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [web_login_page_password_textbox_xpath] : [//input[@name='password']]
+18:54:23.805 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Entering text for : [web_login_page_password_textbox_xpath] ::   Text is : [telus@123]
+18:54:23.923 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [web_login_page_continue_button_xpath] : [//button[contains(text(),'Sign In')]]
+18:54:23.957 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Clicking on : [web_login_page_continue_button_xpath] : [//button[contains(text(),'Sign In')]]
+18:54:24.005 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  waiting for visibility of element [home_page_title_xpath] for 10 seconds
+18:54:25.160 [com.tii.core.DynamicSuiteRunner.main()] ERROR com.tii.reporter.CustomReporter - ******************  Test Case Failed: accessBotPerformanceYearly
+18:54:25.164 [com.tii.core.DynamicSuiteRunner.main()] ERROR com.tii.reporter.CustomReporter - ******************  Failure Reason : 
+java.lang.NullPointerException: null
+	at com.tii.actions.web.AnalyticsAndReportingActions.createOrRetrieveTableAndPrintData(AnalyticsAndReportingActions.java:225)
+	at com.tii.tests.web.AdminTest.accessBotPerformanceYearly(AdminTest.java:95)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at com.tii.core.DynamicSuiteRunner.genrateTestNGAndRun(DynamicSuiteRunner.java:180)
+	at com.tii.core.DynamicSuiteRunner.main(DynamicSuiteRunner.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:282)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+18:54:25.168 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ScreenShotGenerator - ******************  Capturing Screenshot..
+18:54:25.514 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ScreenShotGenerator - ******************  Screenshot Captured. : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\test-result\testcase-screenshots\accessBotPerformanceYearly2023-04-25 185425.png
+18:54:25.515 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - ######################################## TEST CASE [accessBotPerformanceYearly] : FAILED ###################################################################
+18:54:25.516 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - 
+18:54:25.516 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - ######################################## TEST CASE STARTED :  [accessBotReports] ###################################################################
+18:54:25.516 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - ******************  Execution Started For Test: accessBotReports
+18:54:25.517 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.DataRecorder - ******************  TEST DATA : {Id=DATA_1, profile=ADMIN, BotName=52_BOT#12_Field Work Bundled}
+18:54:25.517 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Refreshing the browser...
+18:54:25.518 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Waiting for 3 seconds
+18:54:28.549 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Waiting for 3 seconds
+18:54:31.564 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting elements for :-- [profile_dropdown_arrow_xpath] : [//div[@class='right-header']/div[@class='dropdown d-inline']/button[@type='button']]
+18:54:31.590 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Navigating to URL : [https://telus-qa-ii.itia.ai/landingpage]
+18:54:31.590 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Waiting for 3 seconds
+18:54:36.614 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  waiting for visibility of element [home_page_title_xpath] for 10 seconds
+18:54:36.656 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [home_page_title_xpath] : [//*[@id="basic-navbar-nav"]/ul/li[1]]
+18:54:36.685 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Checking if element is selected, element : [[[ChromeDriver: chrome on WINDOWS (4858ca744b2df83204328104ce63c0b4)] -> xpath: //*[@id="basic-navbar-nav"]/ul/li[1]]]
+18:54:36.699 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  waiting for visibility of element [home_page_analytics_&_reporting_tab_xpath] for 10 seconds
+18:54:36.750 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [home_page_analytics_&_reporting_tab_xpath] : [//a[@id='admin' and contains(text(),'Analytics & Reporting')]]
+18:54:36.777 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Clicking on locator : home_page_analytics_&_reporting_tab_xpath using javascript
+18:54:36.805 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [analytics_&_reporting_submenu_program_reporting_xpath] : [//*[text()='Program Reporting']]
+18:54:36.828 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Checking if element is displayed, element : [[[ChromeDriver: chrome on WINDOWS (4858ca744b2df83204328104ce63c0b4)] -> xpath: //*[text()='Program Reporting']]]
+18:54:36.862 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [analytics_&_reporting_submenu_business_reporting_xpath] : [//*[text()='Business Reporting']]
+18:54:36.894 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Checking if element is displayed, element : [[[ChromeDriver: chrome on WINDOWS (4858ca744b2df83204328104ce63c0b4)] -> xpath: //*[text()='Business Reporting']]]
+18:54:36.922 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [analytics_&_reporting_submenu_support_xpath] : [//*[text()='Support']]
+18:54:36.952 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Checking if element is displayed, element : [[[ChromeDriver: chrome on WINDOWS (4858ca744b2df83204328104ce63c0b4)] -> xpath: //*[text()='Support']]]
+18:54:37.070 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [programe_reporting_submenu_bot_reports_xpath] : [//a[contains(text(),'Bot Report')]]
+18:54:37.121 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Clicking on locator : programe_reporting_submenu_bot_reports_xpath using javascript
+18:54:37.292 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [bot_reports_tab_xpath] : [//a[@title='BOT Report']]
+18:54:37.346 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Clicking on locator : bot_reports_tab_xpath using javascript
+18:54:37.373 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [bot_reports_tab_xpath] : [//a[@title='BOT Report']]
+18:54:37.395 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Checking if element is selected, element : [[[ChromeDriver: chrome on WINDOWS (4858ca744b2df83204328104ce63c0b4)] -> xpath: //a[@title='BOT Report']]]
+18:54:37.412 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [bot_report_lebel_xpath] : [//h4[text()='BOT Transactions Threshold']]
+18:54:37.469 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Text found for : [bot_report_lebel_xpath] is : [BOT Transactions Threshold]
+18:54:37.480 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.CustomAssertion - Validating :- Actual [BOT Transactions Threshold] : Expected [BOT Transactions Threshold]
+18:54:37.486 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  waiting for visibility of element [bot_report_graph_xpath] for 10 seconds
+18:54:37.538 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [bot_report_graph_xpath] : [//*[@id='raphael-paper-2']]
+18:54:37.574 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Checking if element is displayed, element : [[[ChromeDriver: chrome on WINDOWS (4858ca744b2df83204328104ce63c0b4)] -> xpath: //*[@id='raphael-paper-2']]]
+18:54:37.630 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  waiting for visibility of element [bot_report_maximum_graph_data_xpath] for 10 seconds
+18:54:39.342 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting elements for :-- [bot_report_maximum_graph_data_xpath] : [//*[local-name()='svg'][1]//*[name()='g'][1]//*[name()='g'][17]//*[name()='g'][1]//*[name()='g'][1]//*[name()='g'][1]]
+18:54:39.357 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting elements for :-- [bot_report_minimum_graph_data_xpath] : [//*[local-name()='svg'][1]//*[name()='g'][1]//*[name()='g'][17]//*[name()='g'][1]//*[name()='g'][1]//*[name()='g'][2]]
+18:54:39.376 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting elements for :-- [bot_report_average_graph_data_xpath] : [//*[local-name()='svg'][1]//*[name()='g'][1]//*[name()='g'][17]//*[name()='g'][1]//*[name()='g'][1]//*[name()='g'][3]]
+18:54:39.407 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting elements for :-- [bot_report_bot_transaction_data_graph_xpath] : [//*[local-name()='svg'][1]//*[name()='g'][1]//*[name()='g'][17]//*[name()='g'][1]//*[name()='g'][1]//*[name()='g'][4]]
+18:54:39.437 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  waiting for presence of element [bot_report_three_line_bar_icon_xpath] for 10 seconds
+18:54:39.453 [com.tii.core.DynamicSuiteRunner.main()] INFO  c.t.a.w.AnalyticsAndReportingActions - Generated file name is :BOT forecasted transactions By Month
+18:54:39.481 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [bot_report_three_line_bar_icon_xpath] : [//*[@id="raphael-paper-2"]//*[name()='g' and @class='raphael-group-25-button']//*[3]]
+18:54:39.512 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Clicking on : [bot_report_three_line_bar_icon_xpath] : [//*[@id="raphael-paper-2"]//*[name()='g' and @class='raphael-group-25-button']//*[3]]
+18:54:40.630 [com.tii.core.DynamicSuiteRunner.main()] ERROR com.tii.utils.selenium.WebUtils - ******************  Exception occurred while clicking : [element click intercepted: Element <rect x="1325.5" y="8.5" width="17" height="17" ry="2.3" rx="2.3" fill="#c0c0c0" stroke="#c0c0c0" fill-opacity="0.000001" stroke-opacity="0.000001" stroke-width="1" style="background:#ffffb3; border:3px solid green;"></rect> is not clickable at point (1389, 345). Other element would receive the click: <div class="loader-wrapper">...</div>
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SCHEMATRIX', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\LAKSHY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53432}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4858ca744b2df83204328104ce63c0b4]
+18:54:40.631 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [bot_report_export_as_csv_icon_xpath] : [//span[normalize-space()='Export As CSV']]
+18:54:40.668 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Clicking on : [bot_report_export_as_csv_icon_xpath] : [//span[normalize-space()='Export As CSV']]
+18:54:40.697 [com.tii.core.DynamicSuiteRunner.main()] ERROR com.tii.utils.selenium.WebUtils - ******************  Exception occurred while clicking : [element not interactable
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SCHEMATRIX', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\LAKSHY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53432}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4858ca744b2df83204328104ce63c0b4]
+18:54:40.698 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Waiting for 2 seconds
+18:54:42.710 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - Waiting for javascript to load for 20 seconds
+18:54:42.736 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.CustomAssertion - Validating :- Actual [false] : as assertTrue
+18:54:42.738 [com.tii.core.DynamicSuiteRunner.main()] ERROR com.tii.reporter.CustomReporter - ******************  Test Case Failed: accessBotReports
+18:54:42.739 [com.tii.core.DynamicSuiteRunner.main()] ERROR com.tii.reporter.CustomReporter - ******************  Failure Reason : 
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.tii.utils.common.CustomAssertion.assertTrue(CustomAssertion.java:72)
+	at com.tii.actions.web.AnalyticsAndReportingActions.downloadAndValidateReport(AnalyticsAndReportingActions.java:88)
+	at com.tii.tests.web.AdminTest.accessBotReports(AdminTest.java:123)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at com.tii.core.DynamicSuiteRunner.genrateTestNGAndRun(DynamicSuiteRunner.java:180)
+	at com.tii.core.DynamicSuiteRunner.main(DynamicSuiteRunner.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:282)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+18:54:42.740 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ScreenShotGenerator - ******************  Capturing Screenshot..
+18:54:42.876 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ScreenShotGenerator - ******************  Screenshot Captured. : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\test-result\testcase-screenshots\accessBotReports2023-04-25 185442.png
+18:54:42.876 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - ######################################## TEST CASE [accessBotReports] : FAILED ###################################################################
+18:54:42.876 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - 
+18:54:43.553 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\TestData_WithResult.xlsx Updating test results to sheet after execution finished {} 
+18:54:43.553 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - ###################################################### Test Result Map that will be updated in excel data sheet #################################################################
+18:54:43.553 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - {ADMIN_TEST_102=FAILED, ADMIN_TEST_101=FAILED}
+18:54:43.553 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - #######################################################################################################################################
+18:54:43.553 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - Result excel file [C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\TestData_WithResult.xlsx] already existes. Deleting it first for fresh results.
+18:54:43.554 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - Old result file deleted successfully.
+18:54:43.597 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Getting data of sheet: TC_MAPPING from workbook: C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\TestData_WithResult.xlsx
+18:54:43.743 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Recorded Sheet Data Successfully. : {NON_ADMIN_TEST_100={TC_ID=NON_ADMIN_TEST_100, RUNMODE=, DATA_ID=DATA_2, DEVICE_ORIENTATION=, Pre Conditions/Remarks=}, ADMIN_TEST_101={TC_ID=ADMIN_TEST_101, RUNMODE=Y, DATA_ID=DATA_1, DEVICE_ORIENTATION=, Pre Conditions/Remarks=}, ADMIN_TEST_102={TC_ID=ADMIN_TEST_102, RUNMODE=Y, DATA_ID=DATA_1, DEVICE_ORIENTATION=, Pre Conditions/Remarks=}, ={TC_ID=, RUNMODE=, DATA_ID=, DEVICE_ORIENTATION=, Pre Conditions/Remarks=}}
+18:54:43.855 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - Creating new column :[SCENARIO_ID]
+18:54:43.856 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - Creating new column :[EXECUTION_RESULT]
+18:54:43.871 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - Updating: [ADMIN_TEST_101] [FAILED]
+18:54:43.880 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - Updating: [ADMIN_TEST_102] [FAILED]
+18:54:43.892 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - Error occurred while updating test result to Excel sheet : Index 4 out of bounds for length 4
+18:54:43.892 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter -                             ##########################                                 
+18:54:43.892 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - ############################ SUITE EXECUTION FINISHED ################################
+18:54:43.892 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter -                             ##########################                                 
+21:17:54.023 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.Config - ******************  Loading properties file : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\config.properties 
+21:17:54.028 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.Config - ******************  Loading properties file : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\coordinates.properties 
+21:17:54.028 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.Config - ******************  Loading properties file : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\or.properties 
+21:17:54.029 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.Config - ******************  All property configuration files loaded
+21:17:54.185 [com.tii.core.DynamicSuiteRunner.main()] INFO  org.reflections.Reflections - Reflections took 98 ms to scan 71 urls, producing 4 keys and 6 values 
+21:17:54.213 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.ReflectionUtils - Class present in [com.tii.tests.web] is [AdminTest]
+21:17:54.225 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.ReflectionUtils - Class present in [com.tii.tests.web] is [NonAdminTest]
+21:17:54.225 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.ReflectionUtils - Class present in [com.tii.tests.web] is [AdminTestDemo]
+21:17:54.252 [com.tii.core.DynamicSuiteRunner.main()] INFO  org.reflections.Reflections - Reflections took 27 ms to scan 71 urls, producing 2 keys and 2 values 
+21:17:54.253 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.ReflectionUtils - Class present in [com.tii.tests.mobile] is [SampleTest_aMobile]
+21:17:54.289 [com.tii.core.DynamicSuiteRunner.main()] INFO  org.reflections.Reflections - Reflections took 35 ms to scan 71 urls, producing 2 keys and 2 values 
+21:17:54.290 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.ReflectionUtils - Class present in [com.tii.tests.hybridandroid] is [HSampleTest]
+21:17:54.322 [com.tii.core.DynamicSuiteRunner.main()] INFO  org.reflections.Reflections - Reflections took 31 ms to scan 71 urls, producing 0 keys and 0 values 
+21:17:54.345 [com.tii.core.DynamicSuiteRunner.main()] INFO  org.reflections.Reflections - Reflections took 23 ms to scan 71 urls, producing 2 keys and 2 values 
+21:17:54.346 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.ReflectionUtils - Class present in [com.tii.tests.hybridios] is [ISampleTest]
+21:17:54.366 [com.tii.core.DynamicSuiteRunner.main()] INFO  org.reflections.Reflections - Reflections took 19 ms to scan 71 urls, producing 0 keys and 0 values 
+21:17:54.369 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Getting data of sheet: TestScripts from workbook: C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\TestData.xlsx
+21:17:55.266 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Recorded Sheet Data Successfully. : {AdminTest={ClassName=AdminTest, RunMode=Y, Browser=chrome, NodeURL=, DeviceOrientation=}, NonAdminTest={ClassName=NonAdminTest, RunMode=Y, Browser=chrome, NodeURL=, DeviceOrientation=}, ={ClassName=, RunMode=, Browser=, NodeURL=, DeviceOrientation=}}
+21:17:55.267 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Getting data of sheet: TC_MAPPING from workbook: C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\TestData.xlsx
+21:17:55.442 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Recorded Sheet Data Successfully. : {NON_ADMIN_TEST_100={TC_ID=NON_ADMIN_TEST_100, RUNMODE=, DATA_ID=DATA_2, DEVICE_ORIENTATION=, Pre Conditions/Remarks=}, ADMIN_TEST_101={TC_ID=ADMIN_TEST_101, RUNMODE=Y, DATA_ID=DATA_1, DEVICE_ORIENTATION=, Pre Conditions/Remarks=}, ADMIN_TEST_102={TC_ID=ADMIN_TEST_102, RUNMODE=Y, DATA_ID=DATA_1, DEVICE_ORIENTATION=, Pre Conditions/Remarks=}, ={TC_ID=, RUNMODE=, DATA_ID=, DEVICE_ORIENTATION=, Pre Conditions/Remarks=}}
+21:17:55.443 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Getting data of sheet: TESTDATA from workbook: C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\TestData.xlsx
+21:17:55.557 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Recorded Sheet Data Successfully. : {DEFAULT_DATA={Id=DEFAULT_DATA, profile=ADMIN, BotName=}, DATA_1={Id=DATA_1, profile=ADMIN, BotName=52_BOT#12_Field Work Bundled}, DATA_2={Id=DATA_2, profile=Non_ADMIN, BotName=}, ={Id=, profile=, BotName=}}
+21:17:55.557 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Getting data of sheet: Profiles from workbook: C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\TestData.xlsx
+21:17:55.679 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Recorded Sheet Data Successfully. : {ADMIN={Profile=ADMIN, username=amzad.hussain@telus.com, password=telus@123}, Non_ADMIN={Profile=Non_ADMIN, username=lakshya.shandilya@telusinternational.com, password=Baahgqseu5}, ={Profile=, username=, password=}}
+21:17:55.766 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.DynamicSuiteRunner - ####################################################################################################
+21:17:55.767 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.DynamicSuiteRunner - Test Ids present in class : [AdminTest] are : [ADMIN_TEST_101, ADMIN_TEST_102]
+21:17:55.769 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.DynamicSuiteRunner - Test Ids that are enabled in Excel data sheet are : [ADMIN_TEST_101, ADMIN_TEST_102]
+21:17:55.779 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.DynamicSuiteRunner - TestScript Configuration for class [AdminTest] is {ClassName=AdminTest, RunMode=Y, Browser=chrome, NodeURL=, DeviceOrientation=}
+21:17:56.204 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.DynamicSuiteRunner - ####################################################################################################
+21:17:56.204 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.DynamicSuiteRunner - Test Ids present in class : [NonAdminTest] are : [NON_ADMIN_TEST_100]
+21:17:56.204 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.DynamicSuiteRunner - Test Ids that are enabled in Excel data sheet are : []
+21:17:56.219 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.FileUtil - ******************  Successfully generated XML file : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\testSuiteXmls\dynamic_suite.xml
+21:17:56.275 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter -                             ##########################                                 
+21:17:56.275 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - ############################ SUITE EXECUTION STARTED ################################
+21:17:56.275 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter -                             ##########################                                 
+21:17:56.399 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.FileUtil - ******************  Creating directory : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\test-result
+21:17:56.400 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.FileUtil - ******************  Creating directory : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\test-result\testcase-screenshots
+21:17:56.400 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.FileUtil - ******************  Creating directory : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\test-result\execution-reports
+21:17:56.400 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.FileUtil - ******************  Creating directory : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\test-result\execution-reports\2023-04-25
+21:17:56.400 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - ******************  Test Result Directories created.
+21:17:58.312 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.DriverPool - ******************  Getting web driver for browser : chrome
+21:17:58.451 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Navigating to URL : [https://telus-qa-ii.itia.ai/login]
+21:17:58.451 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Waiting for 3 seconds
+21:18:08.896 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - ######################################## TEST CASE STARTED :  [accessBotPerformanceYearly] ###################################################################
+21:18:08.897 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - ******************  Execution Started For Test: accessBotPerformanceYearly
+21:18:08.898 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Refreshing the browser...
+21:18:08.898 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Waiting for 3 seconds
+21:18:14.464 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Waiting for 3 seconds
+21:18:17.473 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting elements for :-- [profile_dropdown_arrow_xpath] : [//div[@class='right-header']/div[@class='dropdown d-inline']/button[@type='button']]
+21:18:17.503 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [web_login_page_username_textbox_xpath] : [//input[@name='username']]
+21:18:17.584 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Entering text for : [web_login_page_username_textbox_xpath] ::   Text is : [amzad.hussain@telus.com]
+21:18:17.718 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [web_login_page_password_textbox_xpath] : [//input[@name='password']]
+21:18:17.785 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Entering text for : [web_login_page_password_textbox_xpath] ::   Text is : [telus@123]
+21:18:17.864 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [web_login_page_continue_button_xpath] : [//button[contains(text(),'Sign In')]]
+21:18:17.895 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Clicking on : [web_login_page_continue_button_xpath] : [//button[contains(text(),'Sign In')]]
+21:18:17.954 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  waiting for visibility of element [home_page_title_xpath] for 10 seconds
+21:18:19.102 [com.tii.core.DynamicSuiteRunner.main()] ERROR com.tii.reporter.CustomReporter - ******************  Test Case Failed: accessBotPerformanceYearly
+21:18:19.105 [com.tii.core.DynamicSuiteRunner.main()] ERROR com.tii.reporter.CustomReporter - ******************  Failure Reason : 
+java.lang.NullPointerException: null
+	at com.tii.actions.web.AnalyticsAndReportingActions.createOrRetrieveTableAndPrintData(AnalyticsAndReportingActions.java:225)
+	at com.tii.tests.web.AdminTest.accessBotPerformanceYearly(AdminTest.java:95)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at com.tii.core.DynamicSuiteRunner.genrateTestNGAndRun(DynamicSuiteRunner.java:180)
+	at com.tii.core.DynamicSuiteRunner.main(DynamicSuiteRunner.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:282)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+21:18:19.108 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ScreenShotGenerator - ******************  Capturing Screenshot..
+21:18:19.363 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ScreenShotGenerator - ******************  Screenshot Captured. : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\test-result\testcase-screenshots\accessBotPerformanceYearly2023-04-25 211819.png
+21:18:19.364 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - ######################################## TEST CASE [accessBotPerformanceYearly] : FAILED ###################################################################
+21:18:19.364 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - 
+21:18:19.365 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - ######################################## TEST CASE STARTED :  [accessBotReports] ###################################################################
+21:18:19.365 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - ******************  Execution Started For Test: accessBotReports
+21:18:19.365 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.core.DataRecorder - ******************  TEST DATA : {Id=DATA_1, profile=ADMIN, BotName=52_BOT#12_Field Work Bundled}
+21:18:19.366 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Refreshing the browser...
+21:18:19.366 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Waiting for 3 seconds
+21:18:22.408 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Waiting for 3 seconds
+21:18:25.425 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting elements for :-- [profile_dropdown_arrow_xpath] : [//div[@class='right-header']/div[@class='dropdown d-inline']/button[@type='button']]
+21:18:25.450 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Navigating to URL : [https://telus-qa-ii.itia.ai/landingpage]
+21:18:25.450 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Waiting for 3 seconds
+21:18:29.671 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  waiting for visibility of element [home_page_title_xpath] for 10 seconds
+21:18:29.712 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [home_page_title_xpath] : [//*[@id="basic-navbar-nav"]/ul/li[1]]
+21:18:29.742 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Checking if element is selected, element : [[[ChromeDriver: chrome on WINDOWS (e4533bb0dd1f30f6e2e298d57e8496e7)] -> xpath: //*[@id="basic-navbar-nav"]/ul/li[1]]]
+21:18:29.757 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  waiting for visibility of element [home_page_analytics_&_reporting_tab_xpath] for 10 seconds
+21:18:29.823 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [home_page_analytics_&_reporting_tab_xpath] : [//a[@id='admin' and contains(text(),'Analytics & Reporting')]]
+21:18:29.857 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Clicking on locator : home_page_analytics_&_reporting_tab_xpath using javascript
+21:18:29.890 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [analytics_&_reporting_submenu_program_reporting_xpath] : [//*[text()='Program Reporting']]
+21:18:29.912 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Checking if element is displayed, element : [[[ChromeDriver: chrome on WINDOWS (e4533bb0dd1f30f6e2e298d57e8496e7)] -> xpath: //*[text()='Program Reporting']]]
+21:18:29.943 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [analytics_&_reporting_submenu_business_reporting_xpath] : [//*[text()='Business Reporting']]
+21:18:29.965 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Checking if element is displayed, element : [[[ChromeDriver: chrome on WINDOWS (e4533bb0dd1f30f6e2e298d57e8496e7)] -> xpath: //*[text()='Business Reporting']]]
+21:18:29.993 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [analytics_&_reporting_submenu_support_xpath] : [//*[text()='Support']]
+21:18:30.023 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Checking if element is displayed, element : [[[ChromeDriver: chrome on WINDOWS (e4533bb0dd1f30f6e2e298d57e8496e7)] -> xpath: //*[text()='Support']]]
+21:18:30.049 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [programe_reporting_submenu_bot_reports_xpath] : [//a[contains(text(),'Bot Report')]]
+21:18:30.077 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Clicking on locator : programe_reporting_submenu_bot_reports_xpath using javascript
+21:18:30.270 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [bot_reports_tab_xpath] : [//a[@title='BOT Report']]
+21:18:30.313 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Clicking on locator : bot_reports_tab_xpath using javascript
+21:18:30.343 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [bot_reports_tab_xpath] : [//a[@title='BOT Report']]
+21:18:30.382 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Checking if element is selected, element : [[[ChromeDriver: chrome on WINDOWS (e4533bb0dd1f30f6e2e298d57e8496e7)] -> xpath: //a[@title='BOT Report']]]
+21:18:30.394 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [bot_report_lebel_xpath] : [//h4[text()='BOT Transactions Threshold']]
+21:18:30.438 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Text found for : [bot_report_lebel_xpath] is : [BOT Transactions Threshold]
+21:18:30.440 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.CustomAssertion - Validating :- Actual [BOT Transactions Threshold] : Expected [BOT Transactions Threshold]
+21:18:30.441 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  waiting for visibility of element [bot_report_graph_xpath] for 10 seconds
+21:18:30.489 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [bot_report_graph_xpath] : [//*[@id='raphael-paper-2']]
+21:18:30.520 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Checking if element is displayed, element : [[[ChromeDriver: chrome on WINDOWS (e4533bb0dd1f30f6e2e298d57e8496e7)] -> xpath: //*[@id='raphael-paper-2']]]
+21:18:30.554 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  waiting for visibility of element [bot_report_maximum_graph_data_xpath] for 10 seconds
+21:18:32.292 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting elements for :-- [bot_report_maximum_graph_data_xpath] : [//*[local-name()='svg'][1]//*[name()='g'][1]//*[name()='g'][17]//*[name()='g'][1]//*[name()='g'][1]//*[name()='g'][1]]
+21:18:32.319 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting elements for :-- [bot_report_minimum_graph_data_xpath] : [//*[local-name()='svg'][1]//*[name()='g'][1]//*[name()='g'][17]//*[name()='g'][1]//*[name()='g'][1]//*[name()='g'][2]]
+21:18:32.340 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting elements for :-- [bot_report_average_graph_data_xpath] : [//*[local-name()='svg'][1]//*[name()='g'][1]//*[name()='g'][17]//*[name()='g'][1]//*[name()='g'][1]//*[name()='g'][3]]
+21:18:32.356 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting elements for :-- [bot_report_bot_transaction_data_graph_xpath] : [//*[local-name()='svg'][1]//*[name()='g'][1]//*[name()='g'][17]//*[name()='g'][1]//*[name()='g'][1]//*[name()='g'][4]]
+21:18:32.373 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  waiting for presence of element [bot_report_three_line_bar_icon_xpath] for 10 seconds
+21:18:32.389 [com.tii.core.DynamicSuiteRunner.main()] INFO  c.t.a.w.AnalyticsAndReportingActions - Generated file name is :BOT forecasted transactions By Month
+21:18:32.403 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [bot_report_three_line_bar_icon_xpath] : [//*[@id="raphael-paper-2"]//*[name()='g' and @class='raphael-group-25-button']//*[3]]
+21:18:32.432 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Clicking on : [bot_report_three_line_bar_icon_xpath] : [//*[@id="raphael-paper-2"]//*[name()='g' and @class='raphael-group-25-button']//*[3]]
+21:18:32.481 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [bot_report_export_as_csv_icon_xpath] : [//span[normalize-space()='Export As CSV']]
+21:18:32.510 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Clicking on : [bot_report_export_as_csv_icon_xpath] : [//span[normalize-space()='Export As CSV']]
+21:18:32.590 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Waiting for 2 seconds
+21:18:34.597 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - Waiting for javascript to load for 20 seconds
+21:18:34.630 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.CustomAssertion - Validating :- Actual [true] : as assertTrue
+21:18:34.631 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  waiting for visibility of element [bot_report_maximum_graph_legend_xpath] for 10 seconds
+21:18:34.706 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [bot_report_maximum_graph_legend_xpath] : [//*[local-name()='svg'][1]//*[name()='g'][1]//*[name()='g'][26]//*[name()='g'][1]//*[name()='g'][1]//*[name()='rect'][1]]
+21:18:34.734 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Scrolling to element : [[ChromeDriver: chrome on WINDOWS (e4533bb0dd1f30f6e2e298d57e8496e7)] -> xpath: //*[local-name()='svg'][1]//*[name()='g'][1]//*[name()='g'][26]//*[name()='g'][1]//*[name()='g'][1]//*[name()='rect'][1]] 
+21:18:34.857 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Clicking on : [[[ChromeDriver: chrome on WINDOWS (e4533bb0dd1f30f6e2e298d57e8496e7)] -> xpath: //*[local-name()='svg'][1]//*[name()='g'][1]//*[name()='g'][26]//*[name()='g'][1]//*[name()='g'][1]//*[name()='rect'][1]]]
+21:18:34.923 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  waiting for Invisibility of element [bot_report_maximum_graph_data_xpath] for 10 seconds
+21:18:35.012 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [bot_report_maximum_graph_data_xpath] : [//*[local-name()='svg'][1]//*[name()='g'][1]//*[name()='g'][17]//*[name()='g'][1]//*[name()='g'][1]//*[name()='g'][1]]
+21:18:35.043 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Checking if element is displayed, element : [[[ChromeDriver: chrome on WINDOWS (e4533bb0dd1f30f6e2e298d57e8496e7)] -> xpath: //*[local-name()='svg'][1]//*[name()='g'][1]//*[name()='g'][17]//*[name()='g'][1]//*[name()='g'][1]//*[name()='g'][1]]]
+21:18:35.060 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.CustomAssertion - Validating :- Actual [false] : as assertFalse
+21:18:35.060 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  waiting for presence of element [bot_reports_filter_button_xpath] for 10 seconds
+21:18:35.078 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [bot_reports_filter_button_xpath] : [//button[text()='Filter']]
+21:18:35.117 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Clicking on locator : bot_reports_filter_button_xpath using javascript
+21:18:35.142 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  waiting for visibility of element [bot_reports_filter_heading_xpath] for 10 seconds
+21:18:35.189 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [bot_reports_filter_heading_xpath] : [//h4[text()='Filter']]
+21:18:35.275 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Text found for : [bot_reports_filter_heading_xpath] is : [Filter]
+21:18:35.275 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.CustomAssertion - Validating :- Actual [Filter] : Expected [Filter]
+21:18:35.276 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [bot_reports_bot_name_filter_down_arrow_xpath] : [//*[local-name()='svg' and @class='css-19bqh2r']]
+21:18:35.327 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Clicking on : [bot_reports_bot_name_filter_down_arrow_xpath] : [//*[local-name()='svg' and @class='css-19bqh2r']]
+21:18:35.361 [com.tii.core.DynamicSuiteRunner.main()] ERROR com.tii.utils.selenium.WebUtils - ******************  Exception occurred while clicking : [element not interactable
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SCHEMATRIX', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\LAKSHY~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60627}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e4533bb0dd1f30f6e2e298d57e8496e7]
+21:18:35.361 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Getting element for :-- [bot_reports_bot_name_filter_down_arrow_xpath] : [//*[local-name()='svg' and @class='css-19bqh2r']]
+21:18:35.381 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Checking if element is enabled, element : [[[ChromeDriver: chrome on WINDOWS (e4533bb0dd1f30f6e2e298d57e8496e7)] -> xpath: //*[local-name()='svg' and @class='css-19bqh2r']]]
+21:18:35.406 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Polling for element untill displayed for :-- [//div[@class=' css-11unzgr']//*[contains(text(),'52_BOT#12_Field Work Bundled')]_xpath]
+21:18:38.443 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Polling for element untill displayed for :-- [//div[@class=' css-11unzgr']//*[contains(text(),'52_BOT#12_Field Work Bundled')]_xpath]
+21:18:41.477 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Polling for element untill displayed for :-- [//div[@class=' css-11unzgr']//*[contains(text(),'52_BOT#12_Field Work Bundled')]_xpath]
+21:18:44.503 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Polling for element untill displayed for :-- [//div[@class=' css-11unzgr']//*[contains(text(),'52_BOT#12_Field Work Bundled')]_xpath]
+21:18:47.532 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.selenium.WebUtils - ******************  Polling for element untill displayed for :-- [//div[@class=' css-11unzgr']//*[contains(text(),'52_BOT#12_Field Work Bundled')]_xpath]
+21:18:47.557 [com.tii.core.DynamicSuiteRunner.main()] ERROR com.tii.reporter.CustomReporter - ******************  Test Case Failed: accessBotReports
+21:18:47.558 [com.tii.core.DynamicSuiteRunner.main()] ERROR com.tii.reporter.CustomReporter - ******************  Failure Reason : 
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.tii.utils.selenium.WebUtils$1@74da4181 (tried for 10 second(s) with 3000 milliseconds interval)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'SCHEMATRIX', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:315)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+	at com.tii.utils.selenium.WebUtils.getDisplayedWebElement(WebUtils.java:298)
+	at com.tii.actions.web.AnalyticsAndReportingActions.selectBotNameUsingFilter(AnalyticsAndReportingActions.java:145)
+	at com.tii.tests.web.AdminTest.accessBotReports(AdminTest.java:130)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at com.tii.core.DynamicSuiteRunner.genrateTestNGAndRun(DynamicSuiteRunner.java:180)
+	at com.tii.core.DynamicSuiteRunner.main(DynamicSuiteRunner.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:282)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:148)
+	at com.tii.utils.selenium.WebUtils$1.apply(WebUtils.java:302)
+	at com.tii.utils.selenium.WebUtils$1.apply(WebUtils.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	... 33 common frames omitted
+21:18:47.558 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ScreenShotGenerator - ******************  Capturing Screenshot..
+21:18:47.697 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ScreenShotGenerator - ******************  Screenshot Captured. : C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\test-result\testcase-screenshots\accessBotReports2023-04-25 211847.png
+21:18:47.697 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - ######################################## TEST CASE [accessBotReports] : FAILED ###################################################################
+21:18:47.697 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - 
+21:18:48.486 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\TestData_WithResult.xlsx Updating test results to sheet after execution finished {} 
+21:18:48.486 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - ###################################################### Test Result Map that will be updated in excel data sheet #################################################################
+21:18:48.486 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - {ADMIN_TEST_102=FAILED, ADMIN_TEST_101=FAILED}
+21:18:48.486 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - #######################################################################################################################################
+21:18:48.487 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - Result excel file [C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\TestData_WithResult.xlsx] already existes. Deleting it first for fresh results.
+21:18:48.487 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - Old result file deleted successfully.
+21:18:48.538 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Getting data of sheet: TC_MAPPING from workbook: C:\Users\Lakshya(Neo)\Downloads\ofsc-automation\ofsc-automation\src\main\resources\config\TestData_WithResult.xlsx
+21:18:48.759 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.utils.common.ExcelUtils - ******************  Recorded Sheet Data Successfully. : {NON_ADMIN_TEST_100={TC_ID=NON_ADMIN_TEST_100, RUNMODE=, DATA_ID=DATA_2, DEVICE_ORIENTATION=, Pre Conditions/Remarks=}, ADMIN_TEST_101={TC_ID=ADMIN_TEST_101, RUNMODE=Y, DATA_ID=DATA_1, DEVICE_ORIENTATION=, Pre Conditions/Remarks=}, ADMIN_TEST_102={TC_ID=ADMIN_TEST_102, RUNMODE=Y, DATA_ID=DATA_1, DEVICE_ORIENTATION=, Pre Conditions/Remarks=}, ={TC_ID=, RUNMODE=, DATA_ID=, DEVICE_ORIENTATION=, Pre Conditions/Remarks=}}
+21:18:48.872 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - Creating new column :[SCENARIO_ID]
+21:18:48.873 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - Creating new column :[EXECUTION_RESULT]
+21:18:48.883 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - Updating: [ADMIN_TEST_101] [FAILED]
+21:18:48.889 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - Updating: [ADMIN_TEST_102] [FAILED]
+21:18:48.899 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.ExcelReporter - Error occurred while updating test result to Excel sheet : Index 4 out of bounds for length 4
+21:18:48.899 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter -                             ##########################                                 
+21:18:48.899 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter - ############################ SUITE EXECUTION FINISHED ################################
+21:18:48.900 [com.tii.core.DynamicSuiteRunner.main()] INFO  com.tii.reporter.CustomReporter -                             ##########################                                 

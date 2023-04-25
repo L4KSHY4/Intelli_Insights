@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="First suite" verbose="8" parallel="none">
+	<listeners>
+		<listener class-name="com.wfm.reporter.CustomReporter" />
+	</listeners>
+	<test name="SuiteConfiguration">
+		<classes>
+			<class name="com.wfm.core.SuiteConfiguration">
+			</class>
+		</classes>
+	</test>
+	<test name="AdminTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="nodeURL" value="" />
+		<classes>
+			<class name="com.wfm.tests.web.AdminTest">
+				<methods>
+					<include name="add_new_work_skill" />
+					<include name="delete_work_skill" />
+					<include name="add_work_zone" />
+					<include name="add_new_user" />
+					<include name="search_work_order" />
+					<include name="hover_on_activity" />
+					<include name="non_customer_facing_activities" />
+					<include name="dynamic_function_of_filters" />
+					<include name="long_date_format_saved_properly" />
+					<include name="verify_allDeliveryWindowParameters_values" />
+					<include name="create_a_tech_calendar" />
+					<include name="modify_tech_calendar" />
+					<include name="deleting_a_tech_calendar" />
+					<include name="activate_user" />
+					<include name="activate_user_profile" />
+					<include name="modify_user_profile" />
+					<include name="add_new_truck_to_bucket" />
+					<include name="add_user_for_multiple_organization" />
+					<include name="search_account_number" />
+					<include name="move_work_order" />
+					<include name="modifying_Work_Skill" />
+					<include name="validateAddress_Phone_OfAssignedWorkOrder" />
+					<include name="Invalid_check_box_removal" />
+					<include name="add_Delete_new_work_skill" />
+					<include name="assign_work_order" />
+					<include name="verify_workzone_error_message" />
+					<include name="verify_default_option_on_activity" />
+					<include name="verify_delete_button_display" />
+					<include name="add_NonQuota_Bucket" />
+					<include name="change_NonQuota_To_Quota_With_Pending_Appointment" />
+					<include name="change_Bucket_Quota_To_NonQuota" />
+					<include name="verify_deliveryWindowParameter_value" />
+					<include name="verify_select_technician_displayed" />
+					<include name="ensure_spaces_between_data_in_work_order_search" />
+					<include name="move_work_orders_to_technician" />
+					<include name="verify_scrollbar_display_for_time_view" />
+					<include name="verify_header_not_visible_when_popup_is_open" />
+					<include name="moving_work_order_drag_and_drop" />
+					<include name="change_Quota_Type_From_NonQuota_To_Quota" />
+					<include name="scroll_Bar_Was_Added_for_Activity_Details_Tabs" />
+					<include name="complete_appointment_from_manage" />
+					<include name="move_truck_from_one_bucket_to_another" />
+					<include name="display_dashboard_reports" />
+					<include name="deactivate_cwz_by_wz_Key" />
+					<include name="logging_out_of_okta" />
+					<include name="teamwork_behavior_improved" />
+				</methods>
+			</class> <!-- com.wfm.tests.web.AdminTest -->
+		</classes>
+	</test> <!-- AdminTest -->
+	<test name="CapacityManagerTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="nodeURL" value="" />
+		<classes>
+			<class name="com.wfm.tests.web.CapacityManagerTest">
+				<methods>
+					<include name="close_1_capacity_category_4_hour_PM_time_slot" />
+					<include name="capacity_buckets_shown_without_zeroes_in_resource_tree" />
+					<include name="filter_quota_history" />
+					<include name="quota_history_excel_download" />
+					<include name="close_all_capacity_category_4_hour_AM_time_slot" />
+					<include name="close_1_capacity_category_4_hour_AM_time_slot" />
+					<include name="mass_populate_copy_week_to_week_save" />
+					<include name="ensure_AM_percentQuota_03Category_to_50Percent" />
+					<include name="ensure_timeslot_percentQuota_02Category_to_50Percent" />
+					<include name="minimum_quota_save" />
+					<include name="minimum_quota_discard" />
+					<include name="close_all_capacity_category_4_hour_PM_time_slot" />
+					<include name="searching_for_Booked_Activities" />
+					<include name="closeAndSave_all_capacity_category_4_hour_AM_time_slot" />
+					<include name="close_all_capacity_categories_for_the_entire_day" />
+					<include name="closeAndReOpen_all_capacity_category_4_hour_AM_time_slot" />
+					<include name="close_1_capacity_category_for_2_hour_pm_time_slot" />
+				</methods>
+			</class> <!-- com.wfm.tests.web.CapacityManagerTest -->
+		</classes>
+	</test> <!-- CapacityManagerTest -->
+	<test name="CommandCenterTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="nodeURL" value="" />
+		<classes>
+			<class name="com.wfm.tests.web.CommandCenterTest">
+				<methods>
+					<include name="screen_formatting" />
+					<include name="invalid_check_box_removal" />
+					<include name="routing_plan_summary_shows_correct_information" />
+					<include name="total_line_removed" />
+					<include name="ensure_spaces_between_data_in_work_order_search" />
+					<include name="routing_report" />
+					<include name="travel_calculation_for_non_travel_activities" />
+					<include name="quota_changes_saved" />
+					<include name="export_activitiy_technician_workbook" />
+					<include name="mass_repeating_and_shift_activities_shown_on_time_view" />
+					<include name="unassigned_activities_to_scheduled_pool" />
+				</methods>
+			</class> <!-- com.wfm.tests.web.CommandCenterTest -->
+		</classes>
+	</test> <!-- CommandCenterTest -->
+	<test name="FRCTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="nodeURL" value="" />
+		<classes>
+			<class name="com.wfm.tests.web.FRCTest">
+				<methods>
+					<include name="inactive_technican_route_display_intimeview" />
+					<include name="complete_appointment_from_manage" />
+					<include name="mapHintNoLongerDuplicated" />
+					<include name="create_a_tech_calendar" />
+					<include name="resource_name_sort_logic" />
+					<include name="select_all_count" />
+					<include name="list_view_cr_customcolumns" />
+					<include name="unableToScrollInDetailsView" />
+					<include name="quota_Closing_Days_Before" />
+					<include name="AMPM_Processes_Show_Up_On_Results" />
+					<include name="show_Percentage_of_Quota_displaying" />
+					<include name="scroll_Added_for_Activity_Details" />
+					<include name="list_View_Dispatcher_Notes_Hint" />
+					<include name="perform_hit" />
+					<include name="time_view_Displays_Resources_Selected_Bucket" />
+					<include name="verify_activities_color" />
+					<include name="reassign_suspended_appointment_to_different_technician" />
+					<include name="add_new_work_skill" />
+					<include name="search_pastActivities_No_Longer_Results_BlankScreen" />
+					<include name="manually_assign_appointment_to_different_DISHOffice" />
+					<include name="ensure_selectTechnician_option_in_map_view" />
+					<include name="manually_assign_appointment_to_tech_in_different_CAR" />
+				</methods>
+			</class> <!-- com.wfm.tests.web.FRCTest -->
+		</classes>
+	</test> <!-- FRCTest -->
+	<test name="IHSManagerTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="nodeURL" value="" />
+		<classes>
+			<class name="com.wfm.tests.web.IHSManagerTest">
+				<methods>
+					<include name="formatting_of_data_into_tables_in_manage" />
+					<include name="ensure_spaces_between_data_in_work_order_search" />
+					<include name="mass_repeating_and_shift_activities_shown_on_time_view" />
+				</methods>
+			</class> <!-- com.wfm.tests.web.IHSManagerTest -->
+		</classes>
+	</test> <!-- IHSManagerTest -->
+	<test name="TechnicianTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="nodeURL" value="" />
+		<classes>
+			<class name="com.wfm.tests.web.TechnicianTest">
+				<methods>
+					<include name="online_add_non_serialized_equipment" />
+					<include name="add_time_to_appointment" />
+					<include name="deactive_route_when_pending_activity_no_more" />
+					<include
+						name="deactive_route_not_visible_when_pending_activity_is_present" />
+					<include name="verify_undefined_text" />
+					<include name="suspend_appointment" />
+					<include name="remove_lines_from_buttons" />
+					<include name="logging_out_of_okta" />
+				</methods>
+			</class> <!-- com.wfm.tests.web.TechnicianTest -->
+		</classes>
+	</test> <!-- TechnicianTest -->
+	<test name="TechnicianTest_aMobile">
+		<parameter name="browser" value="mobile_chrome_android" />
+		<parameter name="nodeURL" value="http://127.0.0.1:4723/wd/hub" />
+		<parameter name="deviceOrientation" value="LANDSCAPE" />
+		<classes>
+			<class name="com.wfm.tests.mobile.TechnicianTest_aMobile">
+				<methods>
+					<include name="formatting_of_data_into_tables_in_manage" />
+				</methods>
+			</class> <!-- com.wfm.tests.mobile.TechnicianTest_aMobile -->
+		</classes>
+	</test> <!-- TechnicianTest_aMobile -->
+	<test name="FRCTest_aMobile">
+		<parameter name="browser" value="mobile_chrome_android" />
+		<parameter name="nodeURL" value="http://127.0.0.1:4723/wd/hub" />
+		<parameter name="deviceOrientation" value="LANDSCAPE" />
+		<classes>
+			<class name="com.wfm.tests.mobile.FRCTest_aMobile">
+				<methods>
+					<include name="editable_customer_info" />
+				</methods>
+			</class> <!-- com.wfm.tests.mobile.FRCTest_aMobile -->
+		</classes>
+	</test> <!-- FRCTest_aMobile -->
+	<test name="QASTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="nodeURL" value="" />
+		<classes>
+			<class name="com.wfm.tests.web.QASTest">
+				<methods>
+					<include name="ensure_spaces_between_data_in_work_order_search" />
+				</methods>
+			</class> <!-- com.wfm.tests.web.QASTest -->
+		</classes>
+	</test> <!-- QASTest -->
+	<test name="ReadOnlyTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="nodeURL" value="" />
+		<classes>
+			<class name="com.wfm.tests.web.ReadOnlyTest">
+				<methods>
+					<include name="ensure_spaces_between_data_in_work_order_search" />
+				</methods>
+			</class> <!-- com.wfm.tests.web.ReadOnlyTest -->
+		</classes>
+	</test> <!-- ReadOnlyTest -->
+	<test name="RSPTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="nodeURL" value="" />
+		<classes>
+			<class name="com.wfm.tests.web.RSPTest">
+				<methods>
+					<include name="ensure_spaces_between_data_in_work_order_search" />
+					<include name="add_appointment_to_technician" />
+					<include name="invalid_check_box_removal" />
+					<include name="mass_repeating_shift_activities_shown_on_time_view" />
+					<include name="scroll_bar_added_activityDetailsTabs" />
+				</methods>
+			</class> <!-- com.wfm.tests.web.RSPTest -->
+		</classes>
+	</test> <!-- RSPTest -->
+	<test name="SubContractorTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="nodeURL" value="" />
+		<classes>
+			<class name="com.wfm.tests.web.SubContractorTest">
+				<methods>
+					<include name="ensure_spaces_between_data_in_work_order_search" />
+					<include name="mass_repeating_and_shift_activities_shown_on_time_view" />
+					<include name="scroll_bar_added_activityDetailsTabs" />
+					<include name="ensure_scroll_bar_for_activity_details" />
+				</methods>
+			</class> <!-- com.wfm.tests.web.SubContractorTest -->
+		</classes>
+	</test> <!-- SubContractorTest -->
+</suite> 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke]" guice-stage="DEVELOPMENT" verbose="8">
+  <test name="AdminTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="nodeURL" value=""/>
+    <classes>
+      <class name="com.tii.tests.web.AdminTest">
+        <methods>
+          <include name="accessBotPerformanceYearly"/>
+          <include name="setup"/>
+          <include name="accessBotReports"/>
+        </methods>
+      </class> <!-- com.tii.tests.web.AdminTest -->
+    </classes>
+  </test> <!-- AdminTest(failed) -->
+</suite> <!-- Failed suite [Smoke] -->
